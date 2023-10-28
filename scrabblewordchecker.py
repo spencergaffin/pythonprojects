@@ -2,6 +2,7 @@
 # Spencer Gaffin
 # Python Scrabble Word Checker
 
+# Tallies the points a word is worth.
 # Checks if a word is playable by asking the Scrabble Merriam dictionary online.
 # Use ! for the blank tile.
 
@@ -16,7 +17,6 @@ import requests
 
 game = True
 def play():
-    
     while game == True:
         # Gets word from user
             while True:
@@ -34,7 +34,7 @@ def play():
                     print("Enter a word!")
                     continue
                         
-            # Optional word check to online dictionary
+            # Word check to online dictionary
             while True:
                 try:
                     dict_check = str(input("Would you like to look up your word in the scrabble dictionary? (y or n) "))
