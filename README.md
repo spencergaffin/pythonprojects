@@ -1,2 +1,2 @@
 # pythonprojects
-Scrabble Scorekeeper is a simple game scorekeeper combined with a HTML web scraper, that uses BeautifulSoup4 and lxml to parse the online merriam scrable dictionary to check if a word is playable.
+Scrabble Scorekeeper is a simple game scorekeeper combined with a HTML web scraper, that uses BeautifulSoup4 and lxml to parse the online merriam scrabble dictionary to check if a word is playable.
